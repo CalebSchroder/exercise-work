@@ -4,15 +4,16 @@ public class circle
   public static void main ( String[] args )  
   {
     Scanner scan =  new Scanner ( System.in );
-    double radius;
+    int radius;
+    double circlelength;
 
     System.out.println("Enter the data:");
 
-    radius = scan.nextline();
+    radius = scan.nextInt();
     circlelength = radius * Math.PI;
 
     System.out.println("The circle is" + circlelength);
-}
+  }
 
 
    
