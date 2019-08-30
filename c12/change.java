@@ -16,11 +16,11 @@ public class change
     System.out.println("Enter the data:");
 
     cents = scan.nextInt();
-    dollars = cents/100;
-    quarters = cents%100/25;
-    dimes = cents%100%25/10;
-    nickels = cents%100%25%10/5;
-    pennies = cents%100%25%10%5/1;
+    dollars = cents / 100;
+    quarters = cents % 100 / 25;
+    dimes = cents % 100 % 25 / 10;
+    nickels = cents % 100 % 25 % 10 / 5;
+    pennies = cents % 100 % 25 % 10 % 5 / 1;
 
     System.out.println("Dollars is " + dollars);
     System.out.println("Quarters is " + quarters);
