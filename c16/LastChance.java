@@ -15,9 +15,9 @@ public class LastChance {
         System.out.println("Enter the miles per gallon:");
         mpg = scan.nextInt();
 
-        gg = gg / 100;
+        
 
-        if (((tc * gg) * mpg) <200 ) {
+        if ((((tc * gg) / 100) * mpg) <200 ) {
         	System.out.println("Get gas!");
         } else {
         	System.out.println ("Safe to proceed");
