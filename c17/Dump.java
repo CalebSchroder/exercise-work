@@ -20,13 +20,6 @@ public class Dump {
         }
 
         System.out.println("The cost is $" + cost);
-
-
-        
-
-
-
-
 	}
 
 
