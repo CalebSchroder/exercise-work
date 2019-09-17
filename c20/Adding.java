@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class SeperatedWords {
+public class Adding {
 
 
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class SeperatedWords {
         System.out.println("Enter amount of integers");
         count = scan.nextInt();
 
-        yeet = 0;
+        yeet = 1;
         sum = 0;
         add = 0;
 
@@ -24,7 +24,7 @@ public class SeperatedWords {
             yeet = yeet + 1;
         }
 
-        System.out.println("The sum is" + sum);
+        System.out.println("The sum is " + sum);
 
 
 
