@@ -24,7 +24,7 @@ public class Adding {
             yeet = yeet + 1;
         }
 
-        System.out.println("The sum is " + sum);
+        System.out.println("The sum is " + sucd m);
 
 
 
