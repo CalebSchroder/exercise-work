@@ -10,19 +10,20 @@ public class Password {
 
         System.out.println("Enter Password");
         pass = scan.nextLine();
-
-        pass1 = "";
         int count1 = 0;
+        pass1 = "";
 
         while(!pass1.equals(pass)) {
+            pass1 = "";
             for (int count = 0; count < pass.length(); count ++) {
                 p = rand.nextInt(26) + 97;
-                pass1 = pass1 + String.valueOf(p);
+                char pa = (char) p;
+                pass1 += pa;
             }
             count1 = count1 + 1;
         }
-        System.out.println("Here is the password" + pass1);
-        System.out.println("It took this many attempts" + count1);
+        System.out.println("Here is the password: " + pass1);
+        System.out.println("It took this many attempts: " + count1);
 
 
     }
