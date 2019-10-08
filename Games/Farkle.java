@@ -22,6 +22,40 @@ public class Pig {
         user1 = scan.nextInt();
         System.out.println("Player 2 Enter your username");
         user2 = scan.nextInt();
+
+        int score1 = 0;
+        int score2 = 0;
+
+        while (score1 < 10000 && score2 10000) {
+            int stay = 1;
+
+            int d1;
+            int d2;
+            int d3;
+            int d4;
+            int d5;
+            int d6;
+            while (stay == 1) {
+                d1 = rand.nextInt(6) + 1;
+                System.out.println("Dice 1 rolled a " + d1);
+                d2 = rand.nextInt(6) + 1;
+                System.out.println("Dice 2 rolled a " + d2);
+                d3 = rand.nextInt(6) + 1;
+                System.out.println("Dice 3 rolled a " + d3);
+                d4 = rand.nextInt(6) + 1;
+                System.out.println("Dice 4 rolled a " + d4);
+                d5 = rand.nextInt(6) + 1;
+                System.out.println("Dice 5 rolled a " + d5);
+                d6 = rand.nextInt(6) + 1;
+                System.out.println("Dice 6 rolled a " + d6);
+
+                if () {
+                    
+                }
+
+            }
+
+        }
         
 
         
