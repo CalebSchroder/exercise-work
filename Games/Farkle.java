@@ -36,30 +36,43 @@ public class Pig {
             int d5;
             int d6;
             while (stay == 1) {
-                d1 = rand.nextInt(6) + 1;
-                System.out.println("Dice 1 rolled a " + d1);
-                d2 = rand.nextInt(6) + 1;
-                System.out.println("Dice 2 rolled a " + d2);
-                d3 = rand.nextInt(6) + 1;
-                System.out.println("Dice 3 rolled a " + d3);
-                d4 = rand.nextInt(6) + 1;
-                System.out.println("Dice 4 rolled a " + d4);
-                d5 = rand.nextInt(6) + 1;
-                System.out.println("Dice 5 rolled a " + d5);
-                d6 = rand.nextInt(6) + 1;
-                System.out.println("Dice 6 rolled a " + d6);
+                int turnScore = 0;
 
-                if () {
+                int[] dice = new dice[6];
+                dice[0] = rand.nextInt(6);
+                dice[1] = rand.nextInt(6);
+                dice[2] = rand.nextInt(6);
+                dice[3] = rand.nextInt(6);
+                dice[4] = rand.nextInt(6);
+                dice[5] = rand.nextInt(6);
+
+                int pull = 1;
+
+                while (pull == 1) {
+                    System.out.println("What points do you want to remove?// 1 Dice = 1 // 5 Dice = 5 // 3 of a kind = 3 //");
+                    int dpull = scan.nextInt();
                     
+                    int threes;
+                    
+                   for (int i = 0; i < 6; i++) {
+                       if (dice[i] == )
+                   } 
+                    
+                    if (threes >= 3) {
+
+                    }
+                    
+                    
+                    
+
+                    
+
                 }
 
+                
+                    
+                
             }
-
         }
-        
-
-        
-        
-
     }
 }
