@@ -21,6 +21,32 @@ public class Box
     length = side ;
   }
 
+  public Box( Box oldBox ) {
+    this.width = oldBox.width;
+    this.length = oldBox.length;
+    this.height = oldBox.height;
+  }
+ 
+
+
+  //Getters + Setters
+
+  public double getLength() {
+    return this.length;
+  }
+  
+  public double getHeight() {
+    return this.height;
+  }
+  
+  public double getWidth() {
+    return this.width;
+  }
+
+
+
+  
+
   // Methods
   public double volume()
   {
@@ -47,6 +73,24 @@ public class Box
 
   private double sideArea() {
     return width * height;
+  }
+
+  public Box biggerBox( Box oldBox ) {
+
+  return new Box( 1.25*oldBox.getWidth(), 1.25*oldBox.getLength(), 1.25*oldBox.getHeight() );
+  
+  }
+  public Box smallerBox( Box oldBox ) {
+
+  return new Box( 0.75*oldBox.getWidth(), 0.75*oldBox.getLength(), 0.75*oldBox.getHeight() );
+  
+  }
+  public boolean nests( Box outsideBox ) {
+    if (outsideBox.width >= width && outsideBox.length >= length && outsideBox.height >= height) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
 }
