@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Odious",
+            "request": "launch",
+            "mainClass": "Odious"
+        }
+    ]
+}
