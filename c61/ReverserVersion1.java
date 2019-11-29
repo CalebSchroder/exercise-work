@@ -13,7 +13,6 @@ class ReverserVersion1
       helper = data[j];
       data[j] = data[data.length - j - 1];
       data[data.length - j - 1] = helper;
-
     }
       
     // write out the new data
